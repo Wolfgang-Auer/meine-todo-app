@@ -1,5 +1,5 @@
 import React, { useState } from 'react'; // Importiere useState
-import B2BGPTSchulung from './B2BGPTSchulung'; // Stelle sicher, dass B2BGPTSchulung.js im selben Ordner liegt
+import GPTCreationTutorial from './B2BGPTSchulung'; // Stelle sicher, dass B2BGPTSchulung.js im selben Ordner liegt
 // import { version } from '../package.json'; // <-- Alte, fehlerhafte Zeile entfernen oder auskommentieren
 import packageJson from '../package.json'; // <-- Korrekter Default-Import
 
@@ -23,7 +23,7 @@ function App() {
       </button>
 
       {/* Bedingtes Rendern der Schulungskomponente */}
-      {showSchulung && <B2BGPTSchulung />}
+      {showSchulung && <GPTCreationTutorial />}
 
       {/* Optional: Du könntest hier noch anderen Inhalt anzeigen, wenn die Schulung nicht sichtbar ist */}
       {!showSchulung && (
