@@ -1,7 +1,7 @@
 {
   "name": "meine-todo-app",
   "version": "0.1.0",
-  "homepage": "https://wolfgangauer.github.io/meine-todo-app",
+  "homepage": "https://github.com/Wolfgang-Auer/meine-todo-app.git",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
