@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Wolfgang-Auer/meine-todo-app.git/static/css/main.53c9db97.css",
-    "main.js": "/Wolfgang-Auer/meine-todo-app.git/static/js/main.dbe1314c.js",
+    "main.css": "/Wolfgang-Auer/meine-todo-app.git/static/css/main.8a05f970.css",
+    "main.js": "/Wolfgang-Auer/meine-todo-app.git/static/js/main.a8214c94.js",
     "static/js/488.a2a9fab6.chunk.js": "/Wolfgang-Auer/meine-todo-app.git/static/js/488.a2a9fab6.chunk.js",
     "index.html": "/Wolfgang-Auer/meine-todo-app.git/index.html",
-    "main.53c9db97.css.map": "/Wolfgang-Auer/meine-todo-app.git/static/css/main.53c9db97.css.map",
-    "main.dbe1314c.js.map": "/Wolfgang-Auer/meine-todo-app.git/static/js/main.dbe1314c.js.map",
+    "main.8a05f970.css.map": "/Wolfgang-Auer/meine-todo-app.git/static/css/main.8a05f970.css.map",
+    "main.a8214c94.js.map": "/Wolfgang-Auer/meine-todo-app.git/static/js/main.a8214c94.js.map",
     "488.a2a9fab6.chunk.js.map": "/Wolfgang-Auer/meine-todo-app.git/static/js/488.a2a9fab6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53c9db97.css",
-    "static/js/main.dbe1314c.js"
+    "static/css/main.8a05f970.css",
+    "static/js/main.a8214c94.js"
   ]
 }
