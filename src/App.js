@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import B2BGPTSchulung from './B2BGPTSchulung';
 
 function App() {
   // Zustand für die Liste der Todos, initialisiert aus dem Local Storage oder als leeres Array
