@@ -1,6 +1,7 @@
 import React, { useState } from 'react'; // Importiere useState
 import B2BGPTSchulung from './B2BGPTSchulung'; // Stelle sicher, dass B2BGPTSchulung.js im selben Ordner liegt
-import { version } from '../package.json'; // Importiere die Version aus package.json
+// import { version } from '../package.json'; // <-- Alte, fehlerhafte Zeile entfernen oder auskommentieren
+import packageJson from '../package.json'; // <-- Korrekter Default-Import
 
 function App() {
   // Zustand, um die Sichtbarkeit der Schulung zu steuern
@@ -31,9 +32,9 @@ function App() {
         </div>
       )}
 
-      {/* Anzeige der Versionsnummer */}
+      {/* Anzeige der Versionsnummer - jetzt mit Zugriff über das importierte Objekt */}
       <p className="text-xs text-gray-400 mt-auto pt-4">
-        Version: {version}
+        Version: {packageJson.version}
       </p>
     </div>
   );
